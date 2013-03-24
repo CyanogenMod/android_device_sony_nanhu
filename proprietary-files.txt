@@ -11,8 +11,10 @@ bin/qmiproxy
 bin/ds_fmc_appd
 bin/bridgemgrd
 bin/mm-pp-daemon
+bin/mm-qcamera-daemon
 bin/cnd
 bin/nvcustomizer
+bin/thermald
 bin/wiperiface
 bin/netmgrd
 etc/firmware/ath6k/AR6003/hw2.1.1/softmac
@@ -55,6 +57,7 @@ lib/libOmxAacEnc.so
 lib/libOmxWmaDec.so
 lib/libchromatix_s5k3l1yx_hfr_60fps.so
 lib/libmmcamera_wavelet_lib.so
+lib/libqmi_client_qmux.so
 lib/libqmiservices.so
 lib/libOmxQcelp13Dec.so
 lib/libOmxMp3Dec.so

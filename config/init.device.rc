@@ -1,10 +1,10 @@
 on post-fs
     insmod /system/lib/modules/ath6kl_core.ko
 
-service hciattach /system/bin/hciattach -n /dev/ttyHS2 ath3k 3000000 flow
+service hciattach /system/bin/hciattach -n /dev/ttyHS0 ath3k 3000000 flow
      class late_start
      user bluetooth
-     group system bluetooth net_bt_admin misc
+     group system bluetooth net_bt_admin
      disabled
      oneshot
 

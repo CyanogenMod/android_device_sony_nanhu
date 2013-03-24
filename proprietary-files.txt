@@ -74,6 +74,7 @@ lib/libOmxAmrEnc.so
 lib/libmm-abl.so
 lib/libnv.so
 lib/libmm-abl-oem.so
+lib/libmmstillomx.so
 lib/libchromatix_s5k3l1yx_preview.so
 lib/libOmxVidEnc.so
 lib/libOmxWmvDec.so

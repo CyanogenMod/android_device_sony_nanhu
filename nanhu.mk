@@ -38,6 +38,8 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+    $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc \
     device/sony/tamsui-common/prebuilt/logo_M.rle:root/logo.rle
 
 # USB function switching

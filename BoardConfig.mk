@@ -41,4 +41,7 @@ WIFI_DRIVER_LOADER_DELAY := 1000000
 
 BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk0p17
 
+# Custom vibrator
+BOARD_HAS_VIBRATOR_IMPLEMENTATION := ../../device/sony/nanhu/vibrator/vibrator.c
+
 TARGET_OTA_ASSERT_DEVICE := C1505,C1505,nanhu

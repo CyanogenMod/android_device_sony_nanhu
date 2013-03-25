@@ -23,10 +23,20 @@
 
 
 
-#define THE_DEVICE "/sys/devices/timed_output/vibrator/enable_vibrator"
+#define THE_DEVICE "/sys/devices/virtual/timed_output/vibrator/enable_vibrator"
 
+int vibrator_exists()
+{
+    int fd;
 
-static int sendit(int timeout_ms)
+    fd = open(THE_DEVICE, O_RDWR);
+    if(fd < 0)
+        return 0;
+    close(fd);
+    return 1;
+}
+
+int sendit(int timeout_ms)
 {
     int nwr, ret, fd;
     char value[20];

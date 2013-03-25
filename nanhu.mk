@@ -38,6 +38,8 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(LOCAL_PATH)/config/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc \
     device/sony/tamsui-common/prebuilt/logo_M.rle:root/logo.rle
 

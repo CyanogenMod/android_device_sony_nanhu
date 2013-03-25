@@ -9,6 +9,7 @@ bin/qmuxd
 bin/port-bridge
 bin/qmiproxy
 bin/ds_fmc_appd
+bin/hci_qcomm_init
 bin/bridgemgrd
 bin/mm-pp-daemon
 bin/mm-qcamera-daemon

@@ -5,7 +5,7 @@
     <item name="bluetooth.active">120</item>
     <item name="bluetooth.on">0.34</item>
     <item name="bluetooth.at">35690</item>
-    <item name="screen.full">127</item>
+    <item name="screen.full">88</item>
     <item name="wifi.on">4</item>
     <item name="wifi.active">120</item>
     <item name="wifi.scan">220</item>
@@ -24,9 +24,9 @@
         <value>320000</value>
         <value>480000</value>
         <value>600000</value>
-        <value>800000</value>
+        <value>1008000</value>
     </array>
-    <item name="cpu.idle">1.0</item>
+    <item name="cpu.idle">1.1</item>
     <item name="cpu.awake">20</item>
     <array name="cpu.active">
         <value>51</value>

@@ -26,7 +26,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Bluetooth
-BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_CSR := true
 TARGET_CUSTOM_BLUEDROID := ../../../device/sony/nanhu/bluedroid/bluetooth.c
 

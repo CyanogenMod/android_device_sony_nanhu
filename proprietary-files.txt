@@ -1,13 +1,9 @@
 bin/rild
 bin/updatemiscta
 bin/qmuxd
-bin/port-bridge
-bin/qmiproxy
 bin/ds_fmc_appd
 bin/hci_qcomm_init
 bin/hciattach
-bin/bridgemgrd
-bin/mm-pp-daemon
 bin/mm-qcamera-daemon
 bin/cnd
 bin/gpu_dcvsd
@@ -15,6 +11,7 @@ bin/nvcustomizer
 bin/thermald
 bin/wiperiface
 bin/netmgrd
+bin/mpdecision
 etc/firmware/ath6k/AR6003/hw2.1.1/softmac
 etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin
 etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin

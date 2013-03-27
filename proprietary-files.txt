@@ -1,10 +1,5 @@
 bin/rild
-bin/wait4tad
-bin/tad
-bin/ta_rmt_service
 bin/updatemiscta
-bin/rmt_storage
-bin/startupflag
 bin/qmuxd
 bin/port-bridge
 bin/qmiproxy

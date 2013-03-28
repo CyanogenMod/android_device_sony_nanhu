@@ -11,7 +11,6 @@ bin/nvcustomizer
 bin/thermald
 bin/wiperiface
 bin/netmgrd
-bin/mpdecision
 etc/firmware/ath6k/AR6003/hw2.1.1/softmac
 etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin
 etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin

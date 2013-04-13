@@ -8,7 +8,7 @@ USE_CAMERA_STUB := true
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/nanhu/include
 
-TARGET_KERNEL_CONFIG := cm_nanhu_defconfig
+TARGET_KERNEL_CONFIG := cm_tamsui_nan_defconfig
 BOARD_KERNEL_CMDLINE := device/sony/nanhu/config/cmdline.txt
 
 # Partition information
